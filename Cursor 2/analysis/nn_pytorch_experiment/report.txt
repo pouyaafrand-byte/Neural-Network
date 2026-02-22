@@ -1,0 +1,8 @@
+Multi-output best config: {'layers': 10, 'width': 128, 'dropout': 0.2}
+Multi-output best val MSE (scaled): 0.3285827562212944
+Multi-output test MSE (scaled): 0.19698424183572896
+Multi-output test MSE (unscaled): 4.145348043124133
+
+Single-output avg best val MSE (scaled): 0.2625871070028682
+Single-output test MSE (scaled): 0.21308100944844727
+Single-output test MSE (unscaled): 2.885005744353839

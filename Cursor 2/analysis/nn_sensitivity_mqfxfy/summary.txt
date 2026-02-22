@@ -1,0 +1,6 @@
+best_activation: tanh
+best_alpha: 0.0001
+best_layers: 7
+best_neurons: 40
+best_val_mse: 0.24665704081609235
+test_mse: 0.17660230461044807

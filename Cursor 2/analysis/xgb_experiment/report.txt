@@ -1,0 +1,5 @@
+Inputs: ['mz', 'q', 'fx', 'fy']
+Outputs: ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7']
+Val MSE (scaled): 0.2531090191331013
+Test MSE (scaled): 0.19339679970617304
+Test MSE (unscaled): 2.728436744305526

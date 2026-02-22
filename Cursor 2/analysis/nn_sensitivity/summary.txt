@@ -1,0 +1,6 @@
+best_activation: relu
+best_alpha: 1e-05
+best_layers: 8
+best_neurons: 20
+best_val_mse: 0.2266740639897616
+test_mse: 0.17057146955412517
