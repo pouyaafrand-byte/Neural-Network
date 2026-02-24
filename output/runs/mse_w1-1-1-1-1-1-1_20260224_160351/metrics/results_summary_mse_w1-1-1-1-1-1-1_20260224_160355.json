@@ -1,0 +1,74 @@
+{
+  "run_name": "mse_w1-1-1-1-1-1-1_20260224_160351",
+  "run_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351",
+  "architecture_source": "Archive/Cursor 2/analysis/nn_sensitivity/sensitivity_results.csv",
+  "best_architecture": {
+    "hidden_layers": 8,
+    "neurons_per_layer": 20,
+    "activation": "relu",
+    "alpha_l2": 1e-05,
+    "optimizer": "AdamW",
+    "loss": "mse",
+    "output_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "training": {
+    "max_epochs": 200,
+    "epochs_completed": 153,
+    "early_stopped": true,
+    "best_epoch": 128,
+    "best_val_loss_scaled": 0.2452765256166458,
+    "patience": 25
+  },
+  "results": {
+    "train": {
+      "mse_scaled": 0.21758916894857266,
+      "mae_scaled": 0.25690811060208457,
+      "r2_scaled": 0.7824108310514274,
+      "mse_unscaled": 3.6267075626566663,
+      "mae_unscaled": 1.2517443237901857,
+      "r2_unscaled": 0.7824108309112717
+    },
+    "validation": {
+      "mse_scaled": 0.2452765173133537,
+      "mae_scaled": 0.2759651119234359,
+      "r2_scaled": 0.7637708802414609,
+      "mse_unscaled": 3.8440012605427643,
+      "mae_unscaled": 1.3052140452154395,
+      "r2_unscaled": 0.7637708797505935
+    },
+    "test": {
+      "mse_scaled": 0.17671024825178192,
+      "mae_scaled": 0.2511401976341683,
+      "r2_scaled": 0.7697153026322411,
+      "mse_unscaled": 3.044895093185616,
+      "mae_unscaled": 1.2341422314011794,
+      "r2_unscaled": 0.7697153041926394
+    }
+  },
+  "artifacts": {
+    "model_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/models/best_model_mse_w1-1-1-1-1-1-1.pt",
+    "model_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/models/best_model_mse_w1-1-1-1-1-1-1_20260224_160355.pt",
+    "x_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/scalers/x_scaler_mse_w1-1-1-1-1-1-1.joblib",
+    "y_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/scalers/y_scaler_mse_w1-1-1-1-1-1-1.joblib",
+    "scaler_stats_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/scalers/scaler_stats_mse_w1-1-1-1-1-1-1.json",
+    "history_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/history/training_history_mse_w1-1-1-1-1-1-1.csv",
+    "history_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/history/training_history_mse_w1-1-1-1-1-1-1_20260224_160355.csv",
+    "loss_plot_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/history/training_loss_plot_mse_w1-1-1-1-1-1-1.png",
+    "loss_plot_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/history/training_loss_plot_mse_w1-1-1-1-1-1-1_20260224_160355.png",
+    "train_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/predictions/train_predictions_mse_w1-1-1-1-1-1-1.csv",
+    "validation_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/predictions/validation_predictions_mse_w1-1-1-1-1-1-1.csv",
+    "test_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/predictions/test_predictions_mse_w1-1-1-1-1-1-1.csv",
+    "predictions_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/predictions",
+    "postprocess_summary_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/postprocessing/postprocess_summary_mse_w1-1-1-1-1-1-1.json",
+    "postprocess_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w1-1-1-1-1-1-1_20260224_160351/postprocessing",
+    "file_suffix": "_mse_w1-1-1-1-1-1-1"
+  }
+}

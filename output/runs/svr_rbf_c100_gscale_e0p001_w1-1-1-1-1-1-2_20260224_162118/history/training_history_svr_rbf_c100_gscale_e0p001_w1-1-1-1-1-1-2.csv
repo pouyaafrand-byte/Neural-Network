@@ -1,0 +1,2 @@
+step,model,fit_time_sec,train_loss_scaled,val_loss_scaled,test_loss_scaled
+1,svr,18.79251194000244,0.22359228318753413,0.28146736295331776,0.20633556077477302

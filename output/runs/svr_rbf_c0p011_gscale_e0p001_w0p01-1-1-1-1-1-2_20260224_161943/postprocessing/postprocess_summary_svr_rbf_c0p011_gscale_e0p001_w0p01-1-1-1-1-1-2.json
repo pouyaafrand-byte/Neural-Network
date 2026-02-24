@@ -1,0 +1,28 @@
+{
+  "run_name": "svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2_20260224_161943",
+  "model": "svr",
+  "arg_tag": "svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2",
+  "summary": {
+    "train": {
+      "aggregate_mse": 26.92689669433552,
+      "aggregate_mae": 3.23591628922333,
+      "aggregate_r2": 0.9002478574918987,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2_20260224_161943/postprocessing/metrics/train_metrics_svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2_20260224_161943/postprocessing/identity_plots/train_identity_plot_svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2.png"
+    },
+    "validation": {
+      "aggregate_mse": 27.68760406643646,
+      "aggregate_mae": 3.367725163668876,
+      "aggregate_r2": 0.8955014500836664,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2_20260224_161943/postprocessing/metrics/validation_metrics_svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2_20260224_161943/postprocessing/identity_plots/validation_identity_plot_svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2.png"
+    },
+    "test": {
+      "aggregate_mse": 28.21910583525954,
+      "aggregate_mae": 3.312584442350778,
+      "aggregate_r2": 0.8900960954369307,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2_20260224_161943/postprocessing/metrics/test_metrics_svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2_20260224_161943/postprocessing/identity_plots/test_identity_plot_svr_rbf_c0p011_gscale_e0p001_w0p01-1-1-1-1-1-2.png"
+    }
+  }
+}

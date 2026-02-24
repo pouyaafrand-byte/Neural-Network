@@ -1,0 +1,37 @@
+{
+  "run_name": "charbonnier_eps0p001_w100-100-100-1-1-1-1_20260224_160644",
+  "loss_name": "charbonnier",
+  "eps": 0.001,
+  "output_weights": [
+    100.0,
+    100.0,
+    100.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "summary": {
+    "train": {
+      "aggregate_mse": 6.998481223886895,
+      "aggregate_mae": 1.6002113440607963,
+      "aggregate_r2": 0.9740737484786988,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-100-100-1-1-1-1_20260224_160644/postprocessing/metrics/train_metrics_charbonnier_eps0p001_w100-100-100-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-100-100-1-1-1-1_20260224_160644/postprocessing/identity_plots/train_identity_plot_charbonnier_eps0p001_w100-100-100-1-1-1-1.png"
+    },
+    "validation": {
+      "aggregate_mse": 7.086685286050957,
+      "aggregate_mae": 1.7076024761633493,
+      "aggregate_r2": 0.9732534337630372,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-100-100-1-1-1-1_20260224_160644/postprocessing/metrics/validation_metrics_charbonnier_eps0p001_w100-100-100-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-100-100-1-1-1-1_20260224_160644/postprocessing/identity_plots/validation_identity_plot_charbonnier_eps0p001_w100-100-100-1-1-1-1.png"
+    },
+    "test": {
+      "aggregate_mse": 6.325040268185686,
+      "aggregate_mae": 1.6516015706216183,
+      "aggregate_r2": 0.9753661003275422,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-100-100-1-1-1-1_20260224_160644/postprocessing/metrics/test_metrics_charbonnier_eps0p001_w100-100-100-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-100-100-1-1-1-1_20260224_160644/postprocessing/identity_plots/test_identity_plot_charbonnier_eps0p001_w100-100-100-1-1-1-1.png"
+    }
+  }
+}

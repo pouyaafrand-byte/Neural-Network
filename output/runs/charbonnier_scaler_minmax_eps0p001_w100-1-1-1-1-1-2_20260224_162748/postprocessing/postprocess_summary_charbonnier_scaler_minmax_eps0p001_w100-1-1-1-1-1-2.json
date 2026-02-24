@@ -1,0 +1,37 @@
+{
+  "run_name": "charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2_20260224_162748",
+  "loss_name": "charbonnier",
+  "eps": 0.001,
+  "output_weights": [
+    100.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0
+  ],
+  "summary": {
+    "train": {
+      "aggregate_mse": 5.736426425503492,
+      "aggregate_mae": 1.521404345021748,
+      "aggregate_r2": 0.9787490986139358,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2_20260224_162748/postprocessing/metrics/train_metrics_charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2_20260224_162748/postprocessing/identity_plots/train_identity_plot_charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2.png"
+    },
+    "validation": {
+      "aggregate_mse": 5.773822258578255,
+      "aggregate_mae": 1.6141442292884371,
+      "aggregate_r2": 0.9782084411475863,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2_20260224_162748/postprocessing/metrics/validation_metrics_charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2_20260224_162748/postprocessing/identity_plots/validation_identity_plot_charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2.png"
+    },
+    "test": {
+      "aggregate_mse": 5.061168194892103,
+      "aggregate_mae": 1.5380256653172153,
+      "aggregate_r2": 0.9802884560015348,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2_20260224_162748/postprocessing/metrics/test_metrics_charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2_20260224_162748/postprocessing/identity_plots/test_identity_plot_charbonnier_scaler_minmax_eps0p001_w100-1-1-1-1-1-2.png"
+    }
+  }
+}

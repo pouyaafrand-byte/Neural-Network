@@ -1,0 +1,28 @@
+{
+  "run_name": "svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162630",
+  "model": "svr",
+  "arg_tag": "svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2",
+  "summary": {
+    "train": {
+      "aggregate_mse": 3.1652392815195536,
+      "aggregate_mae": 0.8260680554933136,
+      "aggregate_r2": 0.988274200199654,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162630/postprocessing/metrics/train_metrics_svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162630/postprocessing/identity_plots/train_identity_plot_svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2.png"
+    },
+    "validation": {
+      "aggregate_mse": 3.4753091819627833,
+      "aggregate_mae": 0.9885904157651744,
+      "aggregate_r2": 0.9868834887571125,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162630/postprocessing/metrics/validation_metrics_svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162630/postprocessing/identity_plots/validation_identity_plot_svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2.png"
+    },
+    "test": {
+      "aggregate_mse": 2.1917182396981776,
+      "aggregate_mae": 0.8695332230369636,
+      "aggregate_r2": 0.9914639962849584,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162630/postprocessing/metrics/test_metrics_svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162630/postprocessing/identity_plots/test_identity_plot_svr_rbf_scaler_robust_c5_gscale_e0p001_w1-1-1-1-1-1-2.png"
+    }
+  }
+}

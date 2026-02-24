@@ -1,0 +1,37 @@
+{
+  "run_name": "charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_161111",
+  "loss_name": "charbonnier",
+  "eps": 0.001,
+  "output_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "summary": {
+    "train": {
+      "aggregate_mse": 3.4792815223635754,
+      "aggregate_mae": 1.0102914386650745,
+      "aggregate_r2": 0.9871108137642306,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_161111/postprocessing/metrics/train_metrics_charbonnier_eps0p001_w1-1-1-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_161111/postprocessing/identity_plots/train_identity_plot_charbonnier_eps0p001_w1-1-1-1-1-1-1.png"
+    },
+    "validation": {
+      "aggregate_mse": 3.5081510413953776,
+      "aggregate_mae": 1.0592185108923908,
+      "aggregate_r2": 0.9867595370175894,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_161111/postprocessing/metrics/validation_metrics_charbonnier_eps0p001_w1-1-1-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_161111/postprocessing/identity_plots/validation_identity_plot_charbonnier_eps0p001_w1-1-1-1-1-1-1.png"
+    },
+    "test": {
+      "aggregate_mse": 2.2279108982480995,
+      "aggregate_mae": 0.9642505871034561,
+      "aggregate_r2": 0.9913230380804577,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_161111/postprocessing/metrics/test_metrics_charbonnier_eps0p001_w1-1-1-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_161111/postprocessing/identity_plots/test_identity_plot_charbonnier_eps0p001_w1-1-1-1-1-1-1.png"
+    }
+  }
+}

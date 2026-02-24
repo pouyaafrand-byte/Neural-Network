@@ -1,0 +1,74 @@
+{
+  "run_name": "mse_w100-1-1-1-1-1-1_20260224_161025",
+  "run_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025",
+  "architecture_source": "Archive/Cursor 2/analysis/nn_sensitivity/sensitivity_results.csv",
+  "best_architecture": {
+    "hidden_layers": 8,
+    "neurons_per_layer": 20,
+    "activation": "relu",
+    "alpha_l2": 1e-05,
+    "optimizer": "AdamW",
+    "loss": "mse",
+    "output_weights": [
+      100.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "training": {
+    "max_epochs": 200,
+    "epochs_completed": 102,
+    "early_stopped": true,
+    "best_epoch": 77,
+    "best_val_loss_scaled": 0.5762740969657898,
+    "patience": 25
+  },
+  "results": {
+    "train": {
+      "mse_scaled": 0.4953416207570167,
+      "mae_scaled": 0.514635165454593,
+      "r2_scaled": 0.5046583792429831,
+      "mse_unscaled": 29.861773815954887,
+      "mae_unscaled": 3.600921869125171,
+      "r2_unscaled": 0.5046583813341732
+    },
+    "validation": {
+      "mse_scaled": 0.6335405416654817,
+      "mae_scaled": 0.5840060844395886,
+      "r2_scaled": 0.4037961393050062,
+      "mse_unscaled": 40.71580416551804,
+      "mae_unscaled": 4.1415264899837085,
+      "r2_unscaled": 0.4037961365805843
+    },
+    "test": {
+      "mse_scaled": 0.5266548791670729,
+      "mae_scaled": 0.5370413662512596,
+      "r2_scaled": 0.37377643800074384,
+      "mse_unscaled": 31.999595112764545,
+      "mae_unscaled": 3.7666465755963467,
+      "r2_unscaled": 0.3737764454166598
+    }
+  },
+  "artifacts": {
+    "model_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/models/best_model_mse_w100-1-1-1-1-1-1.pt",
+    "model_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/models/best_model_mse_w100-1-1-1-1-1-1_20260224_161028.pt",
+    "x_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/scalers/x_scaler_mse_w100-1-1-1-1-1-1.joblib",
+    "y_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/scalers/y_scaler_mse_w100-1-1-1-1-1-1.joblib",
+    "scaler_stats_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/scalers/scaler_stats_mse_w100-1-1-1-1-1-1.json",
+    "history_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/history/training_history_mse_w100-1-1-1-1-1-1.csv",
+    "history_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/history/training_history_mse_w100-1-1-1-1-1-1_20260224_161028.csv",
+    "loss_plot_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/history/training_loss_plot_mse_w100-1-1-1-1-1-1.png",
+    "loss_plot_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/history/training_loss_plot_mse_w100-1-1-1-1-1-1_20260224_161028.png",
+    "train_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/predictions/train_predictions_mse_w100-1-1-1-1-1-1.csv",
+    "validation_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/predictions/validation_predictions_mse_w100-1-1-1-1-1-1.csv",
+    "test_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/predictions/test_predictions_mse_w100-1-1-1-1-1-1.csv",
+    "predictions_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/predictions",
+    "postprocess_summary_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/postprocessing/postprocess_summary_mse_w100-1-1-1-1-1-1.json",
+    "postprocess_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/mse_w100-1-1-1-1-1-1_20260224_161025/postprocessing",
+    "file_suffix": "_mse_w100-1-1-1-1-1-1"
+  }
+}

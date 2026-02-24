@@ -1,0 +1,28 @@
+{
+  "run_name": "rf_n400_dnone_ss2_sl1_20260224_161457",
+  "model": "rf",
+  "arg_tag": "rf_n400_dnone_ss2_sl1",
+  "summary": {
+    "train": {
+      "aggregate_mse": 0.5572281385463946,
+      "aggregate_mae": 0.45850840880521726,
+      "aggregate_r2": 0.997935718277647,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/rf_n400_dnone_ss2_sl1_20260224_161457/postprocessing/metrics/train_metrics_rf_n400_dnone_ss2_sl1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/rf_n400_dnone_ss2_sl1_20260224_161457/postprocessing/identity_plots/train_identity_plot_rf_n400_dnone_ss2_sl1.png"
+    },
+    "validation": {
+      "aggregate_mse": 3.3105261837613833,
+      "aggregate_mae": 1.2127807099827306,
+      "aggregate_r2": 0.9875054127170765,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/rf_n400_dnone_ss2_sl1_20260224_161457/postprocessing/metrics/validation_metrics_rf_n400_dnone_ss2_sl1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/rf_n400_dnone_ss2_sl1_20260224_161457/postprocessing/identity_plots/validation_identity_plot_rf_n400_dnone_ss2_sl1.png"
+    },
+    "test": {
+      "aggregate_mse": 2.795941043378785,
+      "aggregate_mae": 1.1267306615250647,
+      "aggregate_r2": 0.98911075214823,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/rf_n400_dnone_ss2_sl1_20260224_161457/postprocessing/metrics/test_metrics_rf_n400_dnone_ss2_sl1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/rf_n400_dnone_ss2_sl1_20260224_161457/postprocessing/identity_plots/test_identity_plot_rf_n400_dnone_ss2_sl1.png"
+    }
+  }
+}

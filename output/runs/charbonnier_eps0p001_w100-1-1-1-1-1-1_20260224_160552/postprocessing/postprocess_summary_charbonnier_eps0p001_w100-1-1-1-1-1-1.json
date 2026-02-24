@@ -1,0 +1,37 @@
+{
+  "run_name": "charbonnier_eps0p001_w100-1-1-1-1-1-1_20260224_160552",
+  "loss_name": "charbonnier",
+  "eps": 0.001,
+  "output_weights": [
+    100.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "summary": {
+    "train": {
+      "aggregate_mse": 10.394848661052926,
+      "aggregate_mae": 1.9850836439331416,
+      "aggregate_r2": 0.9614917219478312,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-1-1-1-1-1-1_20260224_160552/postprocessing/metrics/train_metrics_charbonnier_eps0p001_w100-1-1-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-1-1-1-1-1-1_20260224_160552/postprocessing/identity_plots/train_identity_plot_charbonnier_eps0p001_w100-1-1-1-1-1-1.png"
+    },
+    "validation": {
+      "aggregate_mse": 12.04908084972104,
+      "aggregate_mae": 2.2325750994983786,
+      "aggregate_r2": 0.9545243613857207,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-1-1-1-1-1-1_20260224_160552/postprocessing/metrics/validation_metrics_charbonnier_eps0p001_w100-1-1-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-1-1-1-1-1-1_20260224_160552/postprocessing/identity_plots/validation_identity_plot_charbonnier_eps0p001_w100-1-1-1-1-1-1.png"
+    },
+    "test": {
+      "aggregate_mse": 11.927095628807956,
+      "aggregate_mae": 2.188776800251264,
+      "aggregate_r2": 0.9535479831517115,
+      "metrics_csv": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-1-1-1-1-1-1_20260224_160552/postprocessing/metrics/test_metrics_charbonnier_eps0p001_w100-1-1-1-1-1-1.csv",
+      "identity_plot": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w100-1-1-1-1-1-1_20260224_160552/postprocessing/identity_plots/test_identity_plot_charbonnier_eps0p001_w100-1-1-1-1-1-1.png"
+    }
+  }
+}

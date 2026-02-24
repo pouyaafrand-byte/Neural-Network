@@ -1,0 +1,75 @@
+{
+  "run_name": "charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513",
+  "run_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513",
+  "architecture_source": "Archive/Cursor 2/analysis/nn_sensitivity/sensitivity_results.csv",
+  "best_architecture": {
+    "hidden_layers": 8,
+    "neurons_per_layer": 20,
+    "activation": "relu",
+    "alpha_l2": 1e-05,
+    "optimizer": "AdamW",
+    "loss": "charbonnier",
+    "loss_eps": 0.001,
+    "output_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "training": {
+    "max_epochs": 200,
+    "epochs_completed": 200,
+    "early_stopped": false,
+    "best_epoch": 190,
+    "best_val_loss_scaled": 0.24281299114227295,
+    "patience": 25
+  },
+  "results": {
+    "train": {
+      "mse_scaled": 0.2261309305109976,
+      "mae_scaled": 0.20836344024534426,
+      "r2_scaled": 0.7738690694890024,
+      "mse_unscaled": 3.0509186288778345,
+      "mae_unscaled": 0.8927596296988823,
+      "r2_unscaled": 0.7738690699362907
+    },
+    "validation": {
+      "mse_scaled": 0.2541052205138051,
+      "mae_scaled": 0.24279115092967699,
+      "r2_scaled": 0.7543336218249073,
+      "mse_unscaled": 3.263567900012434,
+      "mae_unscaled": 1.0243680105928192,
+      "r2_unscaled": 0.7543336200459604
+    },
+    "test": {
+      "mse_scaled": 0.16710507664345942,
+      "mae_scaled": 0.21065024390598674,
+      "r2_scaled": 0.7808861722569376,
+      "mse_unscaled": 2.0014360692812323,
+      "mae_unscaled": 0.8883828233573763,
+      "r2_unscaled": 0.7808861732110488
+    }
+  },
+  "artifacts": {
+    "model_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/models/best_model_charbonnier_eps0p001_w1-1-1-1-1-1-1.pt",
+    "model_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/models/best_model_charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160518.pt",
+    "x_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/scalers/x_scaler_charbonnier_eps0p001_w1-1-1-1-1-1-1.joblib",
+    "y_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/scalers/y_scaler_charbonnier_eps0p001_w1-1-1-1-1-1-1.joblib",
+    "scaler_stats_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/scalers/scaler_stats_charbonnier_eps0p001_w1-1-1-1-1-1-1.json",
+    "history_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/history/training_history_charbonnier_eps0p001_w1-1-1-1-1-1-1.csv",
+    "history_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/history/training_history_charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160518.csv",
+    "loss_plot_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/history/training_loss_plot_charbonnier_eps0p001_w1-1-1-1-1-1-1.png",
+    "loss_plot_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/history/training_loss_plot_charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160518.png",
+    "train_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/predictions/train_predictions_charbonnier_eps0p001_w1-1-1-1-1-1-1.csv",
+    "validation_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/predictions/validation_predictions_charbonnier_eps0p001_w1-1-1-1-1-1-1.csv",
+    "test_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/predictions/test_predictions_charbonnier_eps0p001_w1-1-1-1-1-1-1.csv",
+    "predictions_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/predictions",
+    "postprocess_summary_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/postprocessing/postprocess_summary_charbonnier_eps0p001_w1-1-1-1-1-1-1.json",
+    "postprocess_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/charbonnier_eps0p001_w1-1-1-1-1-1-1_20260224_160513/postprocessing",
+    "file_suffix": "_charbonnier_eps0p001_w1-1-1-1-1-1-1"
+  }
+}

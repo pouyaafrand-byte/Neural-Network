@@ -1,0 +1,57 @@
+{
+  "run_name": "svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118",
+  "run_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118",
+  "model": "svr",
+  "arg_tag": "svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2",
+  "fit_time_sec": 18.79251194000244,
+  "output_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0
+  ],
+  "results": {
+    "train": {
+      "mse_scaled": 0.22359228318753413,
+      "mae_scaled": 0.18948559538856458,
+      "r2_scaled": 0.7764077168124659,
+      "mse_unscaled": 2.791369363430377,
+      "mae_unscaled": 0.7210188171317878,
+      "r2_unscaled": 0.776407716812466
+    },
+    "validation": {
+      "mse_scaled": 0.28146736295331776,
+      "mae_scaled": 0.2528455846027272,
+      "r2_scaled": 0.728886157504152,
+      "mse_unscaled": 3.4041333202494655,
+      "mae_unscaled": 0.9837088384707816,
+      "r2_unscaled": 0.728886157504152
+    },
+    "test": {
+      "mse_scaled": 0.20633556077477302,
+      "mae_scaled": 0.2314971324441743,
+      "r2_scaled": 0.729907401148769,
+      "mse_unscaled": 2.260545817498164,
+      "mae_unscaled": 0.8838895353889116,
+      "r2_unscaled": 0.7299074011487688
+    }
+  },
+  "artifacts": {
+    "model_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/models/best_model_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.joblib",
+    "model_versioned_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/models/best_model_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162137.joblib",
+    "x_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/scalers/x_scaler_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.joblib",
+    "y_scaler_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/scalers/y_scaler_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.joblib",
+    "scaler_stats_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/scalers/scaler_stats_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.json",
+    "history_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/history/training_history_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.csv",
+    "loss_plot_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/history/training_loss_plot_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.png",
+    "train_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/predictions/train_predictions_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.csv",
+    "validation_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/predictions/validation_predictions_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.csv",
+    "test_predictions_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/predictions/test_predictions_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.csv",
+    "postprocess_summary_path": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/postprocessing/postprocess_summary_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2.json",
+    "postprocess_dir": "/Users/amir/Documents/repos/Neural-Network/output/runs/svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2_20260224_162118/postprocessing",
+    "file_suffix": "_svr_rbf_c100_gscale_e0p001_w1-1-1-1-1-1-2"
+  }
+}
